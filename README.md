@@ -1,4 +1,4 @@
-# 🚀 Image Sorter App
+# 🚀 PIC-Sorter
 
 Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup pilih kategori, tekan shortcut, dan biarkan aplikasi menangani sisanya. 🎉
 
