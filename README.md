@@ -80,20 +80,6 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 
 ---
 
-## 🏗️ Build .exe (Windows)
-
-1. Install PyInstaller:  
-   ```bash
-   pip install pyinstaller
-   ```
-2. Bundle jadi single executable:  
-   ```bash
-   pyinstaller --onefile --noconsole Sorter.py
-   ```
-3. Temukan hasil di folder `dist/Sorter.exe` dan distribusikan!
-
----
-
 ## 📸 Screenshot
 1. Masukan jumlah kategor yang diinginkan!(Maksimal 9)
 ![Screenshot Image Sorter](https://raw.githubusercontent.com/Randyh-25/Pic-Sorter/refs/heads/main/Screenshoot/1.TentukanJumlahKategori.png)
