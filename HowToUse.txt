@@ -1,0 +1,47 @@
+Tutorial Cara Menggunakan Image Sorter App
+
+1. **Siapkan Gambar**  
+   Letakkan semua gambar yang ingin disortir ke dalam folder `Pictures/` di dalam direktori aplikasi sebelum menjalankan program.
+
+2. **Persiapan Direktori & File**  
+   Pastikan direktori aplikasi berisi:
+   - `libs/` (dependensi Pillow, jika sudah vendored)  
+   - `Pictures/` (tempat gambar mentah yang siap disortir)  
+   - `Sorter/` (akan dibuat otomatis jika belum ada)  
+   - `Sorter.py` (kode utama aplikasi)
+
+3. **Masuk ke Folder Aplikasi**  
+   Buka terminal atau Command Prompt, lalu navigasi ke direktori aplikasi:
+   ```
+   cd /path/ke/Pic-Sorter
+   ```
+
+4. **(Opsional) Vendor Pillow**  
+   Jika folder `libs/` belum tersedia atau ingin memperbarui paket Pillow:
+   ```
+   pip install --upgrade Pillow --target=libs
+   ```
+
+5. **Jalankan Aplikasi**  
+   Ketik perintah:
+   ```
+   python Sorter.py
+   ```
+
+6. **Penentuan Kategori (Pertama Kali)**  
+   - Aplikasi akan periksa folder `Pictures/` dan `Sorter/`.  
+   - Jika `Pictures/` kosong, aplikasi akan menutup dan memberi peringatan.  
+   - Jika `Sorter/` belum ada kategori, masukkan jumlah kategori (1–9) dan beri nama setiap folder.
+
+7. **Menyortir Gambar**  
+   - Gambar tampil satu per satu dalam layar penuh.  
+   - Tekan tombol `1–9` di keyboard atau klik tombol kategori di layar untuk memindahkan gambar.  
+   - Gunakan `←` / `→` untuk navigasi ke gambar sebelumnya/berikutnya.  
+   - Tekan `Esc` untuk melewati (skip) gambar tanpa memindahkan.  
+   - Tekan `Enter` untuk memindahkan gambar ke kategori pertama.
+
+8. **Proses & Selesai**  
+   - Progress bar di bagian bawah menunjukkan persentase gambar yang sudah disortir.  
+   - Setelah semua gambar diproses, aplikasi akan menutup otomatis.
+
+Selamat menyortir gambar dengan mudah!

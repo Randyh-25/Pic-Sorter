@@ -61,8 +61,10 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 
 ## 🎮 Cara Pakai
 
-1. **Pertama Kali**  
-   - Aplikasi akan cek folder `Pictures/` dan `Sorter/`.  
+1. **Pertama Kali**
+   - Masukan gambar yang ingin di sortir ke folder `Pictures/`
+   - Lalu jalankan aplikasi
+   - Aplikasi akan cek folder `Sorter/`.  
    - Jika belum ada, Anda diminta membuatnya.  
    - Masukkan jumlah kategori (1–9) dan beri nama tiap folder.
 
