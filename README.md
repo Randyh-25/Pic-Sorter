@@ -40,7 +40,7 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 
 1. **Clone repo**  
    ```bash
-   git clone https://github.com/username/Pic-Sorter.git
+   git clone https://github.com/Randyh-25/Pic-Sorter.git
    cd Pic-Sorter
    ```
 
