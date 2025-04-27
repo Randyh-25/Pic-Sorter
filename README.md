@@ -35,9 +35,9 @@ Aplikasi desktop berbasis Python untuk **menyortir gambar** dengan cepat ke dala
 
 ## 📂 Struktur Folder
 /(project-folder) 
-├── Pictures/ (isi gambar yang akan disortir) 
-├── Sorter/ (otomatis dibuat untuk menampung folder kategori) 
-├── main.py (kode aplikasi)
+- ├── Pictures/ (isi gambar yang akan disortir) 
+- ├── Sorter/ (otomatis dibuat untuk menampung folder kategori) 
+- ├── main.py (kode aplikasi)
 
 ---
 
@@ -49,7 +49,7 @@ Aplikasi desktop berbasis Python untuk **menyortir gambar** dengan cepat ke dala
 
 ---
 
-📦 Build ke .exe (Opsional)
+## 📦 Build ke .exe (Opsional)
 Jika ingin dijadikan file .exe:
 pip install pyinstaller
 pyinstaller --onefile --noconsole main.py
