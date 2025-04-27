@@ -52,4 +52,4 @@ Aplikasi desktop berbasis Python untuk **menyortir gambar** dengan cepat ke dala
 ## 📦 Build ke .exe (Opsional)
 Jika ingin dijadikan file .exe:
 - `pip install pyinstaller`
-- `pyinstaller --onefile --noconsole main.py`
+- `pyinstaller --onefile --noconsole Sorter.py`
