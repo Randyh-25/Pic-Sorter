@@ -93,7 +93,9 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 
 ## 📸 Screenshot
 
-![Screenshot Image Sorter](./docs/screenshot-fullscreen.png)
+![Screenshot Image Sorter](Screenshoot\1.TentukanJumlahKategori.png)
+![Screenshot Image Sorter](Screenshoot\2.MasukanKategori.png)
+![Screenshot Image Sorter](Screenshoot\3. Sortir.png)
 
 ---
 
