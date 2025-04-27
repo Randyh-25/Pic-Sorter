@@ -92,9 +92,13 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 ---
 
 ## 📸 Screenshot
-
+1. Masukan jumlah kategor yang diinginkan!(Maksimal 9)
 ![Screenshot Image Sorter](https://raw.githubusercontent.com/Randyh-25/Pic-Sorter/refs/heads/main/Screenshoot/1.TentukanJumlahKategori.png)
+
+2. Tentukan nama dari kategori yang ingin dibuat!
 ![Screenshot Image Sorter](https://raw.githubusercontent.com/Randyh-25/Pic-Sorter/refs/heads/main/Screenshoot/2.MasukanKategori.png)
+
+3. Sortir gambar dengan klik tombol atau dengan shortcut pada keyboard!(1 - 9)
 ![Screenshot Image Sorter](https://raw.githubusercontent.com/Randyh-25/Pic-Sorter/refs/heads/main/Screenshoot/3.%20Sortir.png)
 
 ---
