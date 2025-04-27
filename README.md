@@ -42,14 +42,14 @@ Aplikasi desktop berbasis Python untuk **menyortir gambar** dengan cepat ke dala
 ---
 
 ## 🖥️ Cara Menjalankan
-1. Pastikan sudah menginstall dependensi:
-   pip install pillow
+1. Pastikan sudah menginstall dependensi: \n
+   - `pip install pillow`
 2. Jalankan aplikasinya:
-    python main.py
+   - `python main.py`
 
 ---
 
 ## 📦 Build ke .exe (Opsional)
 Jika ingin dijadikan file .exe:
-pip install pyinstaller
-pyinstaller --onefile --noconsole main.py
+- `pip install pyinstaller`
+- `pyinstaller --onefile --noconsole main.py`
