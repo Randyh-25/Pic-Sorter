@@ -62,6 +62,7 @@ Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup 
 ## 🎮 Cara Pakai
 
 1. **Pertama Kali**
+   - Download file di [Release:](https://github.com/Randyh-25/Pic-Sorter/releases)
    - Masukan gambar yang ingin di sortir ke folder `Pictures/`
    - Lalu jalankan aplikasi
    - Aplikasi akan cek folder `Sorter/`.  
