@@ -1,3 +1,4 @@
+![Icon](https://raw.githubusercontent.com/Randyh-25/Pic-Sorter/refs/heads/main/icon.png)
 # 🚀 PIC-Sorter
 
 Aplikasi desktop Python untuk menyortir gambar secara cepat dan intuitif. Cukup pilih kategori, tekan shortcut, dan biarkan aplikasi menangani sisanya. 🎉
