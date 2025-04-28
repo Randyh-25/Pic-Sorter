@@ -1,5 +1,7 @@
 import sys
 import os
+#Sign = 0b111010001111011011000001011
+#Sign = 122
 
 # Vendored Pillow: cari paket di ./libs dulu
 BASE_DIR = os.path.dirname(__file__)
@@ -53,7 +55,7 @@ class ImageSorterApp:
         # Setup UI
         self.canvas = tk.Canvas(self.root, bg='black')
         self.canvas.pack(expand=True, fill=tk.BOTH)
-
+        # Sign = 0b111010001111011011000001011
         self.button_frame = tk.Frame(self.root)
         self.button_frame.pack(pady=10)
 
@@ -63,7 +65,7 @@ class ImageSorterApp:
             self.root, orient="horizontal", length=300, mode="determinate"
         )
         self.progress.pack(pady=5)
-
+        #Sign = 140
         self.show_image()
 
         # Keyboard bindings (setelah window aman)
@@ -148,7 +150,7 @@ class ImageSorterApp:
                 command=lambda f=folder: self.move_image(f)
             )
             btn.pack(side=tk.LEFT, padx=5)
-
+        #Sign = 171
         skip_btn = tk.Button(
             self.button_frame,
             text="Skip",
@@ -156,7 +158,7 @@ class ImageSorterApp:
             command=self.skip_image
         )
         skip_btn.pack(side=tk.LEFT, padx=5)
-
+        #Sign = 0b111010001111011011000001011
     def show_image(self):
         if self.current_index >= len(self.image_files):
             messagebox.showinfo("Selesai", "Semua gambar sudah diproses!", parent=self.root)
@@ -193,6 +195,7 @@ class ImageSorterApp:
 
     def move_image(self, folder_name):
         try:
+            #Signature = 122140171
             src = os.path.join(self.pictures_path, self.image_files[self.current_index])
             dst = os.path.join(self.sorter_path, folder_name, self.image_files[self.current_index])
             shutil.move(src, dst)
@@ -218,7 +221,7 @@ class ImageSorterApp:
         if self.current_index < len(self.image_files) - 1:
             self.current_index += 1
             self.show_image()
-
+            #Signature = 122140171
     def select_folder(self, event=None):
         if self.folder_list:
             self.move_image(self.folder_list[0])
